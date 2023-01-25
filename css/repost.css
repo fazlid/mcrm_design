@@ -1,0 +1,388 @@
+
+/* mcrm__home_reports */
+
+.mcrm__home_reports {
+    margin: 10px;
+}
+
+.mcrm__home_reports-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mcrm__home_reports-col {
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    -webkit-box-shadow: -2px 2px 22px -2px rgb(34 60 80 / 20%);
+    -moz-box-shadow: -2px 2px 22px -2px rgba(34, 60, 80, 0.2);
+    box-shadow: -2px 2px 22px -2px rgb(34 60 80 / 20%);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.mcrm__home_reports-col-name {
+    font-size: 18px;
+}
+
+.payment-blog2-btn22 {
+    background: #761dea;
+    color: white;
+    padding: 5px;
+    border: none;
+
+}
+
+/* mcrm__home_reports finished */
+
+/* mcrm__kassa_payment */
+
+.mcrm__kassa_payment {
+    margin-bottom: 20vh;
+}
+
+.kassa_payment {
+  max-width: 750px;
+  height: 612px;
+  margin: auto;
+  border: 1px solid #6f5cc2;
+  background: #eff1f3;
+}
+
+.kassa_payment-2 {
+    max-width: 450px;
+    margin: auto;
+    border: 1px solid #6f5cc2;
+    background: #eff1f3;
+}
+
+
+
+
+.kassa_payment-header {
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 40px ;
+background: #8e37ff ;
+}
+
+.kassa_payment-header-btn {
+    color: white;
+    border: none;
+    background: transparent;
+    font-size: 20px;padding: 10px;
+}
+
+.kassa_payment-title {
+    color: white ;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.kassa_payment-flex {
+    display: flex;
+}
+
+.kassa_payment-blog:nth-child(1) {
+    width: 55%;
+}
+
+.kassa_payment-blog:nth-child(2) {
+    width: 45%;
+   
+}
+
+.kassa_payment-blog-2 {
+    width: 100%;
+}
+
+.payment-blog1-title, .payment-blog2-title, .payment-blog1-table-title  {
+    background: white;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.payment-blog1-table-title {
+    justify-content: flex-start;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.payment-blog1-table {
+    border: 1px solid #6f5cc2;
+    border-bottom: none;
+    border-left: none;
+    height: 93%;
+}
+
+.payment-blog2-input {
+    margin: 10px;
+}
+
+.payment-blog2-input-2 {
+    margin: 10px;
+    width: 69%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.payment-blog2-input input, .payment-blog2-input-2 input{
+ width: 100%;
+ height: 40px;
+ border: none;
+ outline: none;
+ background: white;
+ padding: 10px;
+}
+
+.payment-blog2-input label, .payment-blog2-input-2 label {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.payment-blog2-number-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-top: 10px;
+}
+
+.payment-blog2-number-col {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.blog2-number-col {
+    width: 80px;
+    height: 60px;
+    background: rgb(74, 74, 74);
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.blog2-number-col:hover {
+    opacity: .8;
+}
+
+.payment-blog2-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.payment-blog2-btn {
+     width: 50%;
+     height: 50px;
+     font-size: 20px;
+     background: #6f5cc2;
+     color: white;
+     border: none;
+}
+
+.payment-blog2-button2 {
+    margin-top: 5px;
+}
+
+.payment-blog2-btn2 {
+    width: 100%;
+    height: 65px;
+    font-size: 20px;
+    background: #6f5cc2;
+    color: white;
+    border: none;
+}
+
+.table-tbody-td-blog i {
+    font-size: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.table-tbody-td-blog {
+    width: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 10px;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.table-tbody-td-blog-2 i {
+    font-size: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.table-tbody-td-blog-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+    gap: 5px;
+    font-size: 20px;
+}
+
+/* mcrm__kassa_payment finished */
+
+/* mcrm__home_stock */
+
+.mcrm__home_stock {
+    padding: 10px;
+}
+
+.mcrm__home_stock-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mcrm__home_stock-btn {
+    background: #6f5cc2;
+    color: white;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* mcrm__home_stock finished */
+
+/*  */
+
+.procent-modal-otchet-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.procent-modal-otchet-col {
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: black;
+}
+
+.procent-modal-otchet-col.otchet-col-active {
+    background: #6f5cc2;
+    color: white;
+}
+
+.procent-modal-otchet-img{
+ width: 250px;
+ margin: auto;
+}
+
+.procent-modal-otchet-header {
+    height: 40px !important;
+    background: #8e37ff !important;
+    color: white !important;
+}
+
+.procent-modal-otchet-body {
+    background: #999;
+}
+
+.procent-modal-otchet-btn {
+    width: 100%; 
+    height: 60px;
+    border: none;
+    color: white;
+    padding: 10px;
+    background: #6f5cc2;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.kassa_modal_info-body {
+    padding: 10px;
+    height: 400px;
+}
+
+/* mcrm__home_Users */
+
+.mcrm__home_Users {
+    margin: 10px;
+}
+
+.mcrm__home_Users-content {
+    margin-top: 10px;
+    background: white;
+    border-radius: 8px;
+    -webkit-box-shadow: -2px 2px 22px -2px rgb(34 60 80 / 20%);
+    -moz-box-shadow: -2px 2px 22px -2px rgba(34, 60, 80, 0.2);
+    box-shadow: -2px 2px 22px -2px rgb(34 60 80 / 20%);
+}
+
+.Users-content-header-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.Users-content-header-btn {
+    background: #8e37ff;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    width: 220px;
+    height: 40px;
+    font-size: 16px;
+}
+
+
+
+@media (min-width: 576px) {
+.addUser__modal-dialog {
+    max-width: 380px;
+    margin: 1.75rem auto;
+}
+}
+
+.mcrm__home_Users-title {
+    padding: 10px;
+    background: #761dea;
+    color: white;
+}
+
+/* mcrm__home_Users finished */
+
+
